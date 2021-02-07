@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/1.jpg);
+}
+#outer{
+	width: 400px;
+	height: 450px;
+	background-color: aliceblue;
+	margin:50px auto;
+	position: relative;
+	text-align: center;
+}
+#wel{
+	font-size: 20px;
+	color: coral;
+	display: inline-block;
+}
+.user{
+	color: #FF7F50;
+	margin: 20px;
+/* 	height: 35px; */
+	font-size: 20px;
+}
+#su{
+	width: 100px;
+	height: 35px;
+}
+#sub{
+	margin-top: 20px;
+}
+#inputphone{
+	position: relative;
+}
+#re{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	left: 150px;
+	top: 340px;
+}

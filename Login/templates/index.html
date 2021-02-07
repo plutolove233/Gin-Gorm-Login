@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/page-index.css"/>
+		<script src="./js/page-index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="outer">
+			<span id="wel">
+				欢 迎 登 陆
+			</span>
+			<div id="inputphone">
+				<form action="http://localhost:8080/login" method="post">
+					<input type="text" placeholder="用户名" name="name" class="user"/>
+					<input type="password" placeholder="密码" name="pasw" class="user"/>
+					<input type="text" placeholder="邮箱" name = "email" class="user"/>
+					<input type="text" placeholder="手机号" name="phone" class="user" id="phone"/>
+					<input type="reset" value="重置" id="re"/>
+					<div id="sub">
+						<button type="submit" id="su" >登陆</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>
